@@ -1,0 +1,32 @@
+	What it does
+	Breadth first search is a type of search, where the search is 
+done by checking each "row" of the binary tree until the item is found.
+This program generates random numbers and puts them 
+into the queue and the binary tree, so that 
+using breadth first search, the program can check to see
+if an item is in the tree. 
+
+	How it works:
+The program generates random numbers, enqueues them into the queue
+as well as adds those random numbers into the binary tree, and then my 
+driver test all of the possible cases, where it test the insert/delete
+functions for queue and the binary tree, as well as it test the copy 
+constructors for both queue and the binary tree, and most importantly, 
+it test breadth first search and tells the user wether the item is 
+found in the binary tree or not. 
+
+
+	How to use it:
+	First, the user has to compile this program on linux. 
+For exmaple, the user has to type "make", since the 
+makefile is already provided and hit enter. Afterwards, the 
+user needs to type the following  to execute the program: "./treeSearch". 
+Note , this program generates random numbers in order to be able to test the
+program thoroughly. The results of my tests are outputted 
+to the console output. 
+ 
+	What works, what doesn't 
+the queue can only hold a maximum of 1000 items. 
+
+	Name of files
+bst_3358.h, treeSearch.cpp, queue_3358.h
